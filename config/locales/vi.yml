@@ -1,0 +1,26 @@
+vi:
+  english: "Tiếng Anh"
+  vietnamese: "Tiếng Việt"
+
+  s_app: "Ứng dụng bài tập"
+  base_title: "Ứng dụng hướng dẫn Ruby on Rails"
+  home: "Trang chủ"
+  help: "Trợ giúp"
+  login: "Đăng nhập"
+  contact: "Liên hệ"
+
+  home_wellcome: "Chào mừng đến với ứng dụng"
+  home_details_1: "Đây là trang chủ cho ứng dụng "
+  home_details_link: "Luyện tập Ruby on Rails"
+  home_details_2: ""
+  signup: "Đăng kí ngay bây giờ"
+
+  help: "Trợ giúp"
+  help_details_1: "Xem hướng dẫn Ruby on Rails tại "
+  help_details_link_1: "Trang Rails Tutorial"
+  help_details_2: "Xem hướng dẫn cho ứng dụng ví dụ tại "
+  help_link_2: "Ruby on Rails Tutorial"
+
+  contact: "Liên hệ"
+  contact_fb: "Liên hệ tôi qua Facebook: "
+  fb_name: "Lâm Đăng Khoa (Khoa Mập)"
