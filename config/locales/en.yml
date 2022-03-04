@@ -25,3 +25,10 @@ en:
   contact: "Contact"
   contact_fb: "Contact me via Facebook: "
   fb_name: "Lâm Đăng Khoa (Khoa Mập)"
+
+  sign_up: "Sign up"
+  create_acc: "Create Account"
+  su_name: "Name: "
+  su_email: "Email: "
+  su_password: "Password: "
+  su_comfirm: "Comfirmation: "

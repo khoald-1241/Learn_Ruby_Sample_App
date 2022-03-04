@@ -24,3 +24,10 @@ vi:
   contact: "Liên hệ"
   contact_fb: "Liên hệ tôi qua Facebook: "
   fb_name: "Lâm Đăng Khoa (Khoa Mập)"
+
+  sign_up: "Đăng kí"
+  create_acc: "Tạo tài khoản"
+  su_name: "Tên: "
+  su_email: "Email: "
+  su_password: "Mật khẩu: "
+  su_comfirm: "Xác nhận: "
