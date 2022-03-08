@@ -32,3 +32,6 @@ en:
   su_email: "Email: "
   su_password: "Password: "
   su_comfirm: "Comfirmation: "
+  signup_suc: "Sign Up Successed! Wellcome to my Rails App"
+  signup_failed: "Sign Up Failed"
+  users_not_found: "User not found"

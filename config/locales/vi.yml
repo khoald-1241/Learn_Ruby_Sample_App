@@ -31,3 +31,6 @@ vi:
   su_email: "Email: "
   su_password: "Mật khẩu: "
   su_comfirm: "Xác nhận: "
+  signup_suc: "Đăng kí thành công! Chào mừng bạn đến với ứng ụng thực hành Rails của mình (^ -.-^)"
+  signup_failed: "Đăng kí thất bại"
+  users_not_found: "Không tìm thấy người dùng"
