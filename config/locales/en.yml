@@ -7,7 +7,7 @@ en:
   base_title: "Ruby on Rails Tutorial Sample App"
   home: "Home"
   help: "Help"
-  login: "Log in"
+  signin: "Sign in"
   contact: "Contact"
 
   home_wellcome: "Welcome to the Sample App"
@@ -35,3 +35,11 @@ en:
   signup_suc: "Sign Up Successed! Wellcome to my Rails App"
   signup_failed: "Sign Up Failed"
   users_not_found: "User not found"
+
+  account: "Account"
+  profile: "Profile"
+  settings: "Settings"
+  log_out: "Log out"
+  new_user?: "New user ?"
+  wrong_email_pass: "Incorrect Email or Password"
+  hi: "Hello, "

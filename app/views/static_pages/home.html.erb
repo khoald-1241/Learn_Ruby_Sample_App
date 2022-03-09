@@ -6,5 +6,8 @@
     <%= link_to t("home_details_link"), Settings.links.home_link %>
     <%= t "home_details_2" %>
   </h2>
-  <%= link_to t("signup"), signup_path, class: "btn btn-lg btn-primary" %>
+  <% if logged_in? %> <h2><%= t"hi" %><%= current_user.name %></h2>
+  <% else %>
+    <%= link_to t("signup"), signup_path, class: "btn btn-lg btn-primary" %>
+  <% end %>
 </div>

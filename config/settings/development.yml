@@ -2,7 +2,7 @@ links:
   home_link: "http://www.railstutorial.org/"
   help_link1: "http://www.railstutorial.org/help"
   help_link2: "http://www.railstutorial.org/book"
-  link_avartar: "https://scontent.fdad7-1.fna.fbcdn.net/v/t39.30808-6/272887351_3070613056543401_5763590939917982267_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=104&ccb=1-5&_nc_sid=85a577&efg=eyJpIjoidCJ9&_nc_ohc=YYSotUVcKDwAX_W2WDl&tn=6HzAYkbJfn069Ihq&_nc_ht=scontent.fdad7-1.fna&oh=00_AT_-G4osct0EdvcfamwBOtnuCADzJ3qCA6i59jjN_lQ_MQ&oe=622590B7"
+  link_avartar: "https://scontent.fdad8-1.fna.fbcdn.net/v/t39.30808-6/272887351_3070613056543401_5763590939917982267_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=104&ccb=1-5&_nc_sid=85a577&efg=eyJpIjoidCJ9&_nc_ohc=UQ5IgXF4LlUAX_7kK7w&tn=5KVphQY9szcwKdE7&_nc_ht=scontent.fdad8-1.fna&oh=00_AT-cGWdmalsj_jw1rYpjRB-a0Oj_3nO6caLtCXm1YOB8dQ&oe=622D79B7"
   link_fb: "https://www.facebook.com/Lamkhoadang98map/"
 db:
   email_format: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/'

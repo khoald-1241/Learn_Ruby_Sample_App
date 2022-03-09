@@ -6,7 +6,7 @@ vi:
   base_title: "Ứng dụng hướng dẫn Ruby on Rails"
   home: "Trang chủ"
   help: "Trợ giúp"
-  login: "Đăng nhập"
+  signin: "Đăng nhập"
   contact: "Liên hệ"
 
   home_wellcome: "Chào mừng đến với ứng dụng"
@@ -34,3 +34,11 @@ vi:
   signup_suc: "Đăng kí thành công! Chào mừng bạn đến với ứng ụng thực hành Rails của mình (^ -.-^)"
   signup_failed: "Đăng kí thất bại"
   users_not_found: "Không tìm thấy người dùng"
+
+  account: "Tài khoản"
+  profile: "Thông tin"
+  settings: "Cài đặt"
+  log_out: "Đăng xuất"
+  new_user?: "Chưa có tài khoản?"
+  wrong_email_pass: "Email hoặc mật khảu không đúng"
+  hi: "Xin chào, "
