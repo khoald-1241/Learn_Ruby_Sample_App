@@ -5,8 +5,25 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to t("home"), static_pages_home_path %></li>
         <li><%= link_to t("help"), static_pages_help_path %></li>
-        <li><%= link_to t("login"), "#" %></li>
-        <li><%= link_to t("signup"), signup_path %></li>
+
+        <% if logged_in? %>
+          <li class="dropdown">
+            <%= link_to "#", :"data-toggle" => "dropdown", :class => "dropdown-toggle" do%>
+              <%= t "account" %>
+              <b class="caret"></b>
+            <% end %>
+            <ul class="dropdown-menu">
+              <li><%= link_to t("profile"), current_user %></li>
+              <li><%= link_to t("settings"), "#" %></li>
+              <li class="divider"></li>
+              <li> <%= link_to t("log_out"), logout_path, method: :delete %></li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to t("signin"), login_path %></li>
+          <li><%= link_to t("sign_up"), signup_path %></li>
+        <% end %>
+
       </ul>
     </nav>
   </div>
