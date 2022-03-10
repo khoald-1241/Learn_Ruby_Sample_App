@@ -42,3 +42,4 @@ vi:
   new_user?: "Chưa có tài khoản?"
   wrong_email_pass: "Email hoặc mật khảu không đúng"
   hi: "Xin chào, "
+  remember_acc: "Ghi nhớ tài khoản này"
