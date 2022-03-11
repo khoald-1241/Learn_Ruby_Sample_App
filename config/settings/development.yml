@@ -10,3 +10,7 @@ db:
   lenght_256: 256
   lenght_6: 6
 
+u_help:
+  gravatar_email: "http://gravatar.com/emails"
+  size_avar: 80
+

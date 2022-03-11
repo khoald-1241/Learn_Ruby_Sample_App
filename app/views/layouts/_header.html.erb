@@ -7,6 +7,7 @@
         <li><%= link_to t("help"), static_pages_help_path %></li>
 
         <% if logged_in? %>
+          <li><%= link_to t("all_u"), users_path %></li>
           <li class="dropdown">
             <%= link_to "#", :"data-toggle" => "dropdown", :class => "dropdown-toggle" do%>
               <%= t "account" %>
@@ -14,7 +15,7 @@
             <% end %>
             <ul class="dropdown-menu">
               <li><%= link_to t("profile"), current_user %></li>
-              <li><%= link_to t("settings"), "#" %></li>
+              <li><%= link_to t("settings"), edit_user_path(current_user) %></li>
               <li class="divider"></li>
               <li> <%= link_to t("log_out"), logout_path, method: :delete %></li>
             </ul>
