@@ -3,7 +3,7 @@ class SessionsController < ApplicationController
     user = User.find_by email: params[:session][:email].downcase
     # if user&.authenticate params[:session][:password]
     if user.try(:authenticate, params[:session][:password])
-      correct_user user
+      active_user user
     else
       flash.now[:danger] = t "wrong_email_pass"
       render :new

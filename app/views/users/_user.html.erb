@@ -1,0 +1,7 @@
+<li>
+  <%= gravatar_for user, size: 50 %>
+  <%= link_to user.name, user %>
+  <% if can_see_all(user) %>
+    | <%= link_to t("delete_u"), user, method: :delete, data: {confirm: t("sure_d_u")} %>
+  <% end %>
+</li>

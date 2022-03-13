@@ -44,9 +44,25 @@ module SessionsHelper
     cookies.delete(:remember_token)
   end
 
-  def correct_user user
+  def active_user user
     log_in user
     params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-    redirect_to user
+    redirect_back_or user
+  end
+
+  # Returns true if the given user is the current user.
+  def current_user? user
+    user == current_user
+  end
+
+  # Redirects to stored location (or to the default).
+  def redirect_back_or default
+    redirect_to(session[:forwarding_url] || default)
+    session.delete(:forwarding_url)
+  end
+
+  # Stores the URL trying to be accessed.
+  def store_location
+    session[:forwarding_url] = request.original_url if request.get?
   end
 end
