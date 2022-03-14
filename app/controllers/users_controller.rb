@@ -1,9 +1,9 @@
 class UsersController < ApplicationController
   include Pagy::Backend
 
-  before_action :logged_in_user, except: [:show, :new, :create]
-  before_action :find_user, except: [:index, :new, :create]
-  before_action :correct_user, only: [:edit, :update]
+  before_action :logged_in_user, except: %i(show new create)
+  before_action :find_user, except: %i(index new create)
+  before_action :correct_user, only: %i(edit update)
   before_action :are_you_admin, only: :destroy
 
   def show; end
@@ -15,9 +15,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t("signup_suc")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "check_mail_to_act"
+      redirect_to root_url
     else
       flash.now[:danger] = t("signup_failed")
       render :new

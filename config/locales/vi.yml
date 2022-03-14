@@ -60,3 +60,12 @@ vi:
   can_not_access: "Bạn không thể thực hiện thao tác này"
   can_not_find_u: "Không thể tìm thấy tài khoản"
   not_ad: "Bạn không phải quản trị viên"
+
+  acc_not_act: "Tài khoản chưa kích hoạt. Vui lòng kiểm tra email đã đăng kí"
+  check_mail_to_act: "Vui lòng kiểm tra email đã đăng kí để kích hoạt tài khoản"
+  mail_sub_act: "Kích hoạt tài khoản"
+  mail_act_details: "Chào mưng bạn tham gia Ứng dụng bài tập. Vui lòng kích vào link bên dưới để kích hoạt tài khoản:"
+  mail_act_hi: "Xin chào"
+  act_acc: "Kích hoạt tài khoản"
+  act_success: "Kích hoạt tài khoản thành công"
+  act_invalid: "Đường dẫn không hợp lệ"
