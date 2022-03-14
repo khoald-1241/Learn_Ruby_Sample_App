@@ -9,8 +9,9 @@ db:
   lenght_100: 100
   lenght_256: 256
   lenght_6: 6
-
 u_help:
   gravatar_email: "http://gravatar.com/emails"
   size_avar: 80
+password_reset:
+  expire: 2
 

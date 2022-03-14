@@ -13,6 +13,7 @@ Rails.application.routes.draw do
     delete "/logout", to: "sessions#destroy"
 
     resources :account_activations, only: :edit
+    resources :password_resets, except: %i(index show destroy)
   end
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
