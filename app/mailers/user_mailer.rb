@@ -4,9 +4,8 @@ class UserMailer < ApplicationMailer
     mail to: user.email, subject: t("mail_sub_act")
   end
 
-  # def password_reset
-  #   @greeting = "Hi"
-
-  #   mail to: "to@example.org"
-  # end
+  def password_reset user
+    @user = user
+    mail to: user.email, subject: t("mail_sub_reset")
+  end
 end
