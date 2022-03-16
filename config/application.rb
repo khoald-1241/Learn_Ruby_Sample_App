@@ -14,6 +14,8 @@ module LearnRubySampleApp
     config.i18n.available_locales = [:en, :vi]
     config.i18n.default_locale = :vi
 
+    config.middleware.use I18n::JS::Middleware
+
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files

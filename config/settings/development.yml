@@ -11,7 +11,12 @@ db:
   lenght_6: 6
 u_help:
   gravatar_email: "http://gravatar.com/emails"
-  size_avar: 80
+  size_avar_80: 80
+  users_10: 10
 password_reset:
-  expire: 2
-
+  expire_2: 2
+post:
+  items_5: 5
+  img_format: ["image/jpeg", "image/gif", "image/png"]
+  img_range_500: [500, 500]
+  img_format_html: "image/jpeg,image/gif,image/png"

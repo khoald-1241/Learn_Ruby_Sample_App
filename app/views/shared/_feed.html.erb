@@ -1,0 +1,4 @@
+<ol class="microposts">
+  <%= render @feed_items || t("no_post") %>
+</ol>
+<%== pagy_bootstrap_nav @pagy %>
