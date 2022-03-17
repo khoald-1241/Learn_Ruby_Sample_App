@@ -48,4 +48,3 @@ gem "image_processing", "1.9.3"
 gem "mini_magick", "4.9.5"
 
 gem "i18n-js"
-gem "rails-i18n"
