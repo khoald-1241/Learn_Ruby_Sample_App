@@ -42,3 +42,10 @@ gem "jquery-rails"
 gem "pagy"
 gem "rails-i18n"
 gem "sassc-rails", ">= 2.1.0"
+
+gem "active_storage_validations", "0.8.2"
+gem "image_processing", "1.9.3"
+gem "mini_magick", "4.9.5"
+
+gem "i18n-js"
+gem "rails-i18n"
