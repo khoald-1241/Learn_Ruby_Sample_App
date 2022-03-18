@@ -97,3 +97,9 @@ vi:
   micropost: "Bài đăng"
   sure_d_post: "Bạn có chắc muốn xóa bài đăng này?"
   no_post: "Chưa có bài đăng"
+
+  Follow: "Theo dõi"
+  Unfollow: "Hủy theo dõi"
+  Following: "Đang theo dõi"
+  Followers: "Người theo dõi"
+  relationship_not_found: "Không tìm thấy dữ liệu theo dõi"

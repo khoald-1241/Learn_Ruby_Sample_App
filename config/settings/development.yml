@@ -12,6 +12,7 @@ db:
 u_help:
   gravatar_email: "http://gravatar.com/emails"
   size_avar_80: 80
+  size_avar_30: 30
   users_10: 10
 password_reset:
   expire_2: 2

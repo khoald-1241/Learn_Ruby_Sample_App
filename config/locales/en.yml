@@ -100,3 +100,9 @@ en:
   no_post: "No post"
   mess_img_format: "Must be a valid image format"
   mess_img_size: "Should be less than 5MB"
+
+  Follow: "Follow"
+  Unfollow: "Unfollow"
+  Following: "Following"
+  Followers: "Followers"
+  relationship_not_found: "Data follow not found"

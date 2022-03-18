@@ -7,8 +7,12 @@
         <%= @user.name %>
       </h1>
     </section>
+     <section class="stats">
+          <%= render "shared/stats" %>
+        </section>
   </aside>
   <div class="col-md-8">
+    <%= render "follow_form" if logged_in? %>
     <% if @microposts.any? %>
       <h3><%= t "micropost" %> (<%= @microposts.count %>)</h3>
       <ol class="microposts">
@@ -16,7 +20,7 @@
       </ol>
       <%== pagy_bootstrap_nav @pagy %>
     <% else %>
-      No posted.
+      <%= t "no_post" %>
     <% end %>
   </div>
 </div>
